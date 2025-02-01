@@ -8,6 +8,7 @@ from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shot
 from text_display import TextDisplay
+from explosion import Explosion
 
 def main():
     pygame.init()
@@ -27,6 +28,8 @@ def main():
     asteroid_field = AsteroidField()
 
     Shot.containers = (shots, updatable, drawable)
+
+    Explosion.containers = (updatable, drawable)
 
     Player.containers = (updatable, drawable)
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
