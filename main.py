@@ -7,6 +7,7 @@ from player import Player
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shot
+from text_display import TextDisplay
 
 def main():
     pygame.init()
@@ -50,6 +51,8 @@ def main():
 
         for obj in drawable:
             obj.draw(screen)
+
+        TextDisplay(screen, 'Score: {0}'.format(score), 0, 0)
 
         pygame.display.flip()
 
