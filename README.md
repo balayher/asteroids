@@ -63,9 +63,12 @@ Use the keyboard to control your ship:
 ## Gameplay
 
 Shoot asteroids to score points.
-Small asteroids are destroyed when shot. Bigger astroids break into 2 smaller asteroids.
-Colliding into an asteroid destroys your ship and costs you a life.
-After respawning, you will be temporarily invulnerable.
+Large asteroids break into 2 medium-sized asteroids when shot.
+Medium asteroids break into 2 small-sized asteroids when shot.
+Small asteroids are destroyed when shot.
+Colliding into an asteroid destroys your ship and the asteroid. 
+This also costs you a life.
+After a short time, you will respawn and be temporarily invulnerable.
 Game ends when you run out of lives.
 
 # Try for a high score!
