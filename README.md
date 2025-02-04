@@ -68,7 +68,11 @@ Medium asteroids break into 2 small-sized asteroids when shot.
 Small asteroids are destroyed when shot.
 Colliding into an asteroid destroys your ship and the asteroid. 
 This also costs you a life.
-After a short time, you will respawn and be temporarily invulnerable.
+After a short time, you will respawn and gain brief invulnerability.
 Game ends when you run out of lives.
+
+## Credits
+
+Created from the https://www.boot.dev Build Asteroids course.
 
 # Try for a high score!
